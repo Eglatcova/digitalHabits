@@ -1,0 +1,35 @@
+.app {
+  background: #e4e4e4;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainBox {
+  padding: 10px;
+  width: 400px;
+  height: 400px;
+  overflow-y: auto;
+  background: white;
+}
+
+.box {
+  padding-left: 10px;
+}
+
+.child {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.child:hover {
+  color: #00b4d8;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
